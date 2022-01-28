@@ -12,4 +12,5 @@ int main()
     printf("unsigned %llx\n", ushort2ulong(MYMAX16));
     printf("unsigned %llx\n", uint2ulong(MYMAX32));
     printf("signed %llx\n", int2long(MYMAX32));
+    return 0;
 }

@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-int mymul(int a, int b);
+long long mymul(long long a, long long b);
 
 int main()
 {
-    printf("3*6=%d", mymul(3, 6));
+    printf("3*6=%lld", mymul(3, 6));
     return 0;
 }
